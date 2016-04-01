@@ -33,7 +33,7 @@ public class Deck {
     }
 
     public Deck shuffle() {
-        int numberOfIterations = (int) (System.currentTimeMillis() % 100);
+        int numberOfIterations = (int) (System.currentTimeMillis() % 1000);
         for (int i = 0; i < numberOfIterations; i++) {
             Collections.shuffle(cardList);
         }
